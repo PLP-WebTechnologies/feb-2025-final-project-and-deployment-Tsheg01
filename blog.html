@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog | My Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Blog Posts</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <button id="themeToggle">Toggle Theme</button>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>My First Post</h2>
+      <p>This is my first post on this blog. Stay tuned!</p>
+    </article>
+
+    <section class="comments">
+      <h3>Leave a Comment</h3>
+      <input type="text" id="commentInput" placeholder="Write a comment..." />
+      <button onclick="addComment()">Post</button>
+      <ul id="commentList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Blog</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
